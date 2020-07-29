@@ -217,4 +217,9 @@ li{
     .meal h2{
         margin-top: 24px;
     }
+
+    .btn{
+        width: 120px;
+        height: 40px;
+    }
 }
