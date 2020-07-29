@@ -221,5 +221,6 @@ li{
     .btn{
         width: 120px;
         height: 40px;
+        font-size: 14px;
     }
 }
