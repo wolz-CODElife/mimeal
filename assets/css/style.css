@@ -16,6 +16,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: var(--montserat);
+    overflow: hidden;
 }
 
 body{
@@ -75,7 +76,7 @@ p{
 
 .btn{
     width: 200px;
-    height: 61px;
+    min-height: 61px;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -114,6 +115,7 @@ li{
     background: url(../images/hero_image.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
 
 .overlay{
@@ -234,7 +236,7 @@ li{
     }
 
     .btn{
-        width: 120px;
+        min-width: 120px;
         height: 40px;
         font-size: 14px;
     }
