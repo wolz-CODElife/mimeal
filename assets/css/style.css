@@ -158,8 +158,8 @@ li{
 }
 
 .meal img{
+    height: 583px;
     width: 100%;
-    height: auto;
 }
 
 .meal--categories{
@@ -179,9 +179,10 @@ li{
     font-weight: 600;
 }
 
-/* meal video */
-.meal--video video{
+/* meal iframe */
+.meal--video iframe{
     width: 100%;
+    min-height: 60vh;
     background: var(--dark-grey);
     margin-top: 56px;
 }
@@ -214,11 +215,14 @@ li{
     }
 
     .meal img{
-        height: auto;
+        height: 300px;
     }
 
     .meal h2{
         margin-top: 24px;
+    }
+    .meal--video iframe{
+        min-height: 45vh;
     }
 
     .btn{
