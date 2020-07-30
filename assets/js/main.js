@@ -2,11 +2,6 @@ let generateBtn = document.getElementById("generate");
 let mealList = document.querySelector(".meal");
 let resetBtn = document.querySelector(".btn-outline");
 
-// Loader
-setTimeout(function(){
-  $(".loader-bg").fadeToggle();
-}, 1500);
-
 // Aos Js for Scroll Animation
 AOS.init();
 
