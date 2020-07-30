@@ -10,10 +10,6 @@
     <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
 </head>
 <body>
-    <!-- Preloader -->
-    <div class="loader-bg">
-        <div class="loader"></div>
-    </div>
     <!-- nav bar -->
     <nav>
         <div class="container">
@@ -122,12 +118,6 @@
 
     </section>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script>
-        // Loader
-        setTimeout(function(){
-            $(".loader-bg").fadeToggle();
-        }, 1500);
-    </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
