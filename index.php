@@ -10,6 +10,11 @@
     <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
 </head>
 <body>
+    <!-- Preloader -->
+    <div class="loader-bg">
+        <div class="loader"></div>
+    </div>
+    <!-- nav bar -->
     <nav>
         <div class="container">
             <div class="navbar-brand">
