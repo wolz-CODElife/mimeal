@@ -189,6 +189,10 @@ li{
 
 
 @media (max-width: 576px) { 
+    .hero{
+        max-height: 100vh;
+    }
+
     h1{
         font-size: 32px;
         line-height: 40px;

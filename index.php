@@ -29,7 +29,7 @@
             <button class="btn bg-primary" id="generate" name="fetch" data-aos="zoom-in-left"
             data-aos-anchor="#example-anchor"
             data-aos-duration="1000">Get a meal</button>
-            <button class="btn btn-outline" id="generate" name="clear" data-aos="zoom-in-right"
+            <button class="btn btn-outline" name="clear" data-aos="zoom-in-right"
             data-aos-anchor="#example-anchor"
             data-aos-duration="1000">Reset</button>
         </form>
