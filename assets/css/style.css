@@ -167,6 +167,7 @@ li{
 .meal{
     margin-top: 56px;
     display: none;
+    overflow: hidden;
 }
 
 .active{
@@ -207,6 +208,7 @@ li{
 @media (max-width: 576px) { 
     .hero{
         max-height: 100vh;
+        overflow: hidden;
     }
 
     h1{
@@ -232,6 +234,10 @@ li{
     p{
         font-size: 12px;
         line-height: 17px;
+    }
+
+    .meal{
+        overflow: hidden;
     }
 
     .meal img{
